@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6810F48F1C990A2700FA5717 /* Colleged.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6810F48E1C990A1400FA5717 /* Colleged.ttf */; };
+		6810F4931C990E7600FA5717 /* Colleged.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6810F4921C990E7600FA5717 /* Colleged.ttf */; };
+		6810F4951C990EDC00FA5717 /* Mr_Brightside.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6810F4941C990EDC00FA5717 /* Mr_Brightside.mp3 */; };
+		6810F4961C990EEF00FA5717 /* Mr_Brightside.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6810F4941C990EDC00FA5717 /* Mr_Brightside.mp3 */; };
+		681918331C92BB98005B1A4E /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 681918321C92BB98005B1A4E /* NavigationViewController.m */; };
+		689AFAFE1C92A0080040219F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 689AFAFD1C92A0080040219F /* main.m */; };
+		689AFB011C92A0080040219F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 689AFB001C92A0080040219F /* AppDelegate.m */; };
+		689AFB041C92A0080040219F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 689AFB031C92A0080040219F /* ViewController.m */; };
+		689AFB071C92A0080040219F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689AFB051C92A0080040219F /* Main.storyboard */; };
+		689AFB091C92A0080040219F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689AFB081C92A0080040219F /* Assets.xcassets */; };
+		689AFB0C1C92A0080040219F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689AFB0A1C92A0080040219F /* LaunchScreen.storyboard */; };
+		689AFB171C92A0080040219F /* ZagRadio2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689AFB161C92A0080040219F /* ZagRadio2Tests.m */; };
+		689AFB221C92A0080040219F /* ZagRadio2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689AFB211C92A0080040219F /* ZagRadio2UITests.m */; };
+		689AFB331C92AD7B0040219F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 689AFB321C92AD7B0040219F /* SWRevealViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		689AFB131C92A0080040219F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689AFAF11C92A0080040219F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689AFAF81C92A0080040219F;
+			remoteInfo = ZagRadio2;
+		};
+		689AFB1E1C92A0080040219F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689AFAF11C92A0080040219F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689AFAF81C92A0080040219F;
+			remoteInfo = ZagRadio2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6810F48E1C990A1400FA5717 /* Colleged.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Colleged.ttf; path = /Users/tfarthing/cpsc326/ZagRadio2/Colleged.ttf; sourceTree = "<absolute>"; };
+		6810F4921C990E7600FA5717 /* Colleged.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Colleged.ttf; path = Assets.xcassets/Colleged.dataset/Colleged.ttf; sourceTree = "<group>"; };
+		6810F4941C990EDC00FA5717 /* Mr_Brightside.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mr_Brightside.mp3; path = Assets.xcassets/Mr_Brightside.dataset/Mr_Brightside.mp3; sourceTree = "<group>"; };
+		681918321C92BB98005B1A4E /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationViewController.m; path = ZagRadio2/NavigationViewController.m; sourceTree = "<group>"; };
+		681918341C92BBA8005B1A4E /* NavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NavigationViewController.h; path = ZagRadio2/NavigationViewController.h; sourceTree = "<group>"; };
+		689AFAF91C92A0080040219F /* ZagRadio2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZagRadio2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		689AFAFD1C92A0080040219F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		689AFAFF1C92A0080040219F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		689AFB001C92A0080040219F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		689AFB021C92A0080040219F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		689AFB031C92A0080040219F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		689AFB061C92A0080040219F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		689AFB081C92A0080040219F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		689AFB0B1C92A0080040219F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		689AFB0D1C92A0080040219F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689AFB121C92A0080040219F /* ZagRadio2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZagRadio2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		689AFB161C92A0080040219F /* ZagRadio2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZagRadio2Tests.m; sourceTree = "<group>"; };
+		689AFB181C92A0080040219F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689AFB1D1C92A0080040219F /* ZagRadio2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZagRadio2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		689AFB211C92A0080040219F /* ZagRadio2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZagRadio2UITests.m; sourceTree = "<group>"; };
+		689AFB231C92A0080040219F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689AFB311C92AD7B0040219F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		689AFB321C92AD7B0040219F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		689AFAF61C92A0080040219F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689AFB0F1C92A0080040219F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689AFB1A1C92A0080040219F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		689AFAF01C92A0080040219F = {
+			isa = PBXGroup;
+			children = (
+				681918341C92BBA8005B1A4E /* NavigationViewController.h */,
+				681918321C92BB98005B1A4E /* NavigationViewController.m */,
+				689AFAFB1C92A0080040219F /* ZagRadio2 */,
+				689AFB151C92A0080040219F /* ZagRadio2Tests */,
+				689AFB201C92A0080040219F /* ZagRadio2UITests */,
+				689AFAFA1C92A0080040219F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		689AFAFA1C92A0080040219F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				689AFAF91C92A0080040219F /* ZagRadio2.app */,
+				689AFB121C92A0080040219F /* ZagRadio2Tests.xctest */,
+				689AFB1D1C92A0080040219F /* ZagRadio2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		689AFAFB1C92A0080040219F /* ZagRadio2 */ = {
+			isa = PBXGroup;
+			children = (
+				689AFAFF1C92A0080040219F /* AppDelegate.h */,
+				689AFB001C92A0080040219F /* AppDelegate.m */,
+				689AFB021C92A0080040219F /* ViewController.h */,
+				689AFB031C92A0080040219F /* ViewController.m */,
+				689AFB051C92A0080040219F /* Main.storyboard */,
+				689AFB081C92A0080040219F /* Assets.xcassets */,
+				689AFB0A1C92A0080040219F /* LaunchScreen.storyboard */,
+				689AFB0D1C92A0080040219F /* Info.plist */,
+				6810F4921C990E7600FA5717 /* Colleged.ttf */,
+				6810F4941C990EDC00FA5717 /* Mr_Brightside.mp3 */,
+				689AFAFC1C92A0080040219F /* Supporting Files */,
+			);
+			path = ZagRadio2;
+			sourceTree = "<group>";
+		};
+		689AFAFC1C92A0080040219F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				689AFB311C92AD7B0040219F /* SWRevealViewController.h */,
+				689AFB321C92AD7B0040219F /* SWRevealViewController.m */,
+				689AFAFD1C92A0080040219F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		689AFB151C92A0080040219F /* ZagRadio2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				689AFB161C92A0080040219F /* ZagRadio2Tests.m */,
+				689AFB181C92A0080040219F /* Info.plist */,
+			);
+			path = ZagRadio2Tests;
+			sourceTree = "<group>";
+		};
+		689AFB201C92A0080040219F /* ZagRadio2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				689AFB211C92A0080040219F /* ZagRadio2UITests.m */,
+				689AFB231C92A0080040219F /* Info.plist */,
+			);
+			path = ZagRadio2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		689AFAF81C92A0080040219F /* ZagRadio2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689AFB261C92A0080040219F /* Build configuration list for PBXNativeTarget "ZagRadio2" */;
+			buildPhases = (
+				689AFAF51C92A0080040219F /* Sources */,
+				689AFAF61C92A0080040219F /* Frameworks */,
+				689AFAF71C92A0080040219F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZagRadio2;
+			productName = ZagRadio2;
+			productReference = 689AFAF91C92A0080040219F /* ZagRadio2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		689AFB111C92A0080040219F /* ZagRadio2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689AFB291C92A0080040219F /* Build configuration list for PBXNativeTarget "ZagRadio2Tests" */;
+			buildPhases = (
+				689AFB0E1C92A0080040219F /* Sources */,
+				689AFB0F1C92A0080040219F /* Frameworks */,
+				689AFB101C92A0080040219F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689AFB141C92A0080040219F /* PBXTargetDependency */,
+			);
+			name = ZagRadio2Tests;
+			productName = ZagRadio2Tests;
+			productReference = 689AFB121C92A0080040219F /* ZagRadio2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		689AFB1C1C92A0080040219F /* ZagRadio2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689AFB2C1C92A0080040219F /* Build configuration list for PBXNativeTarget "ZagRadio2UITests" */;
+			buildPhases = (
+				689AFB191C92A0080040219F /* Sources */,
+				689AFB1A1C92A0080040219F /* Frameworks */,
+				689AFB1B1C92A0080040219F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689AFB1F1C92A0080040219F /* PBXTargetDependency */,
+			);
+			name = ZagRadio2UITests;
+			productName = ZagRadio2UITests;
+			productReference = 689AFB1D1C92A0080040219F /* ZagRadio2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		689AFAF11C92A0080040219F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Will Miner and Trevor Farthing";
+				TargetAttributes = {
+					689AFAF81C92A0080040219F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 997X6VB3G7;
+					};
+					689AFB111C92A0080040219F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 689AFAF81C92A0080040219F;
+					};
+					689AFB1C1C92A0080040219F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 689AFAF81C92A0080040219F;
+					};
+				};
+			};
+			buildConfigurationList = 689AFAF41C92A0080040219F /* Build configuration list for PBXProject "ZagRadio2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 689AFAF01C92A0080040219F;
+			productRefGroup = 689AFAFA1C92A0080040219F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				689AFAF81C92A0080040219F /* ZagRadio2 */,
+				689AFB111C92A0080040219F /* ZagRadio2Tests */,
+				689AFB1C1C92A0080040219F /* ZagRadio2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		689AFAF71C92A0080040219F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689AFB0C1C92A0080040219F /* LaunchScreen.storyboard in Resources */,
+				689AFB091C92A0080040219F /* Assets.xcassets in Resources */,
+				689AFB071C92A0080040219F /* Main.storyboard in Resources */,
+				6810F4951C990EDC00FA5717 /* Mr_Brightside.mp3 in Resources */,
+				6810F4931C990E7600FA5717 /* Colleged.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689AFB101C92A0080040219F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689AFB1B1C92A0080040219F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6810F4961C990EEF00FA5717 /* Mr_Brightside.mp3 in Resources */,
+				6810F48F1C990A2700FA5717 /* Colleged.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		689AFAF51C92A0080040219F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689AFB041C92A0080040219F /* ViewController.m in Sources */,
+				689AFB011C92A0080040219F /* AppDelegate.m in Sources */,
+				681918331C92BB98005B1A4E /* NavigationViewController.m in Sources */,
+				689AFAFE1C92A0080040219F /* main.m in Sources */,
+				689AFB331C92AD7B0040219F /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689AFB0E1C92A0080040219F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689AFB171C92A0080040219F /* ZagRadio2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689AFB191C92A0080040219F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689AFB221C92A0080040219F /* ZagRadio2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		689AFB141C92A0080040219F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689AFAF81C92A0080040219F /* ZagRadio2 */;
+			targetProxy = 689AFB131C92A0080040219F /* PBXContainerItemProxy */;
+		};
+		689AFB1F1C92A0080040219F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689AFAF81C92A0080040219F /* ZagRadio2 */;
+			targetProxy = 689AFB1E1C92A0080040219F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		689AFB051C92A0080040219F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689AFB061C92A0080040219F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		689AFB0A1C92A0080040219F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689AFB0B1C92A0080040219F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		689AFB241C92A0080040219F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		689AFB251C92A0080040219F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		689AFB271C92A0080040219F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ZagRadio2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WillandTrevor.ZagRadio2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		689AFB281C92A0080040219F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ZagRadio2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WillandTrevor.ZagRadio2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		689AFB2A1C92A0080040219F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZagRadio2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WillandTrevor.ZagRadio2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZagRadio2.app/ZagRadio2";
+			};
+			name = Debug;
+		};
+		689AFB2B1C92A0080040219F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZagRadio2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WillandTrevor.ZagRadio2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZagRadio2.app/ZagRadio2";
+			};
+			name = Release;
+		};
+		689AFB2D1C92A0080040219F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZagRadio2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WillandTrevor.ZagRadio2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_TARGET_NAME = ZagRadio2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		689AFB2E1C92A0080040219F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZagRadio2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WillandTrevor.ZagRadio2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_TARGET_NAME = ZagRadio2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		689AFAF41C92A0080040219F /* Build configuration list for PBXProject "ZagRadio2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689AFB241C92A0080040219F /* Debug */,
+				689AFB251C92A0080040219F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689AFB261C92A0080040219F /* Build configuration list for PBXNativeTarget "ZagRadio2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689AFB271C92A0080040219F /* Debug */,
+				689AFB281C92A0080040219F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689AFB291C92A0080040219F /* Build configuration list for PBXNativeTarget "ZagRadio2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689AFB2A1C92A0080040219F /* Debug */,
+				689AFB2B1C92A0080040219F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689AFB2C1C92A0080040219F /* Build configuration list for PBXNativeTarget "ZagRadio2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689AFB2D1C92A0080040219F /* Debug */,
+				689AFB2E1C92A0080040219F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 689AFAF11C92A0080040219F /* Project object */;
+}
